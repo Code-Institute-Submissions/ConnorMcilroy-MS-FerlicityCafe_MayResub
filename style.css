@@ -1,0 +1,203 @@
+/*============================================
+
+TABLE OF CONTENTS
+
+00. BODY
+01. NAV BAR
+02. HEADER
+03. FEATURES & PRODUCTS
+04. MARKETING SPECIAL OFFER
+05. TESTIMONIALS
+06. LOGO BRANDS
+07. BACK TO THE TOP BUTTON
+08. FOOTER
+09. MOBILE ICON
+10. MEDIA QUERY FOR MENU
+11. ALL PRODUCTS PAGE
+12. SINGLE PRODUCTS PAGE
+13. CART ITEMS
+14. CHECKOUT CART PAGE
+15. MEDIA QUERY FOR LESS THAN 600 SCREEN SIZE
+
+===============================================*/
+
+/*-- -----------------------------------------
+	00. BODY
+-------------------------------------------- --*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background: url('../images/bg-pattern-1-dark.png')
+}
+
+/*-- -----------------------------------------
+	01. NAV BAR
+-------------------------------------------- --*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/*-- -----------------------------------------
+	02. HEADER
+-------------------------------------------- --*/
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn {
+    border: none;
+    display: inline-block;
+    background: #a62647;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 30px 0;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: #632638;
+}
+
+.header {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.header .row {
+    margin-top: 70px;
+}
+
+/*-- -----------------------------------------
+	03. FEATURES & PRODUCTS
+-------------------------------------------- --*/
+
+.categories {
+    margin: 70px 0;
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after {
+    content: '';
+    background: #a62647;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4 {
+    color: #555;
+    font-weight: normal;
+}
+
+.col-4 P{
+    font-size: 14px;
+}
+
+.rating .fa {
+    color: #a62647;
+}
+
+.col-4:hover {
+    transform: translateY(-5px);
+}

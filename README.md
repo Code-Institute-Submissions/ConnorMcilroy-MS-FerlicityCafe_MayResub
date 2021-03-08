@@ -12,7 +12,7 @@ CONTENTS OF THIS FILE
  * Wireframes
  * Getting Started
  * Credits
- * #Contact
+ * Contact
 
 
 #Introduction

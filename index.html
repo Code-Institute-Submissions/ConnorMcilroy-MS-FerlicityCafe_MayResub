@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferlicitys Cafe | Milestone Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- -----------------------------------------
+	00. NAV BAR & HEADER
+-------------------------------------------- -->
+
+<div class="header">
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+</div>
+
+<div class="row">
+    <div class="col-2">
+        <h1>Always Look Your Best<br>By Starting Your Day With A Coffee!</h1>
+        <p>We're always working on crafting more sustainable coffee – from crop to cup.</p>
+        <a href="" class="btn"><strong>Explore Here</strong></a>
+    </div>
+
+ <div class="col-2">
+    <img src="images/image1.png">
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- -----------------------------------------
+	01. BACK TO TOP BUTTON
+-------------------------------------------- -->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up" viewBox="0 0 16 16">
+    <path d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659l4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z"/>
+</svg></button>
+
+<!-- -----------------------------------------
+	02. GALLERY
+-------------------------------------------- -->
+
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+        <div class="col-3">
+            <img src="images/category-1.jpg">
+        </div>
+        <div class="col-3">
+            <img src="images/category-2.jpg">
+        </div>
+        <div class="col-3">
+            <img src="images/category-3.jpg">
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- -----------------------------------------
+	03. FEATURES PRODUCTS
+-------------------------------------------- -->
+
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="iced-tea.html"><img src="images/product-1.jpg"></a>
+            <h4><strong>Iced Tea</strong></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>£4.00</p>
+        </div>
+
+        <div class="col-4">
+            <a href="chocolate-cream-frostino.html"><img src="images/product-2.jpg"></a>
+            <h4><strong>Chocolate & Cream Frostino</strong></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>£6.99</p>
+        </div>
+
+        <div class="col-4">
+            <a href="toffee-spiced-latte.html"><img src="images/product-3.jpg"></a>
+            <h4><strong>Toffee Spiced Latte</strong></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>£4.99</p>
+        </div>
+
+        <div class="col-4">
+            <a href="mango-passion-fruit-cooler.html"><img src="images/product-4.jpg"></a>
+            <h4><strong>Mango & Passion Fruit Cooler</strong></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>£4.99</p>
+        </div>
+    </div>
+
+ <!-- -----------------------------------------
+	04. LATEST PRODUCTS
+ -------------------------------------------- -->
+
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="ruby-hot-chocolate.html"><img src="images/product-5.jpg"></a>
+            <h4><strong>Ruby Hot Chocolate</strong></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>£5.99</p>
+        </div>
+
+        <div class="col-4">
+            <a href="milk-chocolate-raisins.html"><img src="images/product-6.jpg"></a>
+            <h4><strong>Milk Chocolate Raisins</strong></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>              
+            </div>
+            <p>£2.50</p>
+        </div>
+
+        <div class="col-4">
+            <a href="hazelnut-shimmer.html"><img src="images/product-7.jpg"></a>
+            <h4><strong>Hazelnut Shimmer</strong></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>£4.00</p>
+        </div>
+
+        <div class="col-4">
+            <a href="cream-frostino.html"><img src="images/product-8.jpg"></a>
+            <h4><strong>Caramel & Cream Frostino</strong></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>£4.50</p>
+        </div>
+
+        <div class="col-4">
+            <a href="spiced-cold-brew.html"><img src="images/product-9.jpg"></a>
+            <h4><strong>Spiced Cold Brew</strong></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>£3.00</p>
+        </div>
+
+        <div class="col-4">
+            <a href="iced-mocha.html"><img src="images/product-10.jpg"></a>
+            <h4><strong>Iced Mocha</strong></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>£4.00</p>
+        </div>
+
+        <div class="col-4">
+            <a href="espresso.html"><img src="images/product-11.jpg"></a>
+            <h4><strong>Espresso</strong></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>£2.50</p>
+        </div>
+
+        <div class="col-4">
+            <a href="jasmine-tea.html"><img src="images/product-12.jpg"></a>
+            <h4><strong>Jasmine Tea</strong></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>£3.00</p>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
