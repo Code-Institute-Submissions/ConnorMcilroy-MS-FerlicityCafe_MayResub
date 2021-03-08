@@ -15,6 +15,8 @@ CONTENTS OF THIS FILE
  * Getting Started
  * Refferences & Credits
  * Code
+ * Uder Exsperiece
+ * Acknowledgement & Conclusion
  * Contact
  * Special Thanks
 
@@ -73,6 +75,21 @@ CODE
 - Featured Products & Latest Product code we're taken from (https://css-tricks.com/designing-a-product-page-layout-with-flexbox/) Then edited to fit my project.
 - Testimonials code we're help via (https://www.w3schools.com/howto/howto_css_team.asp) & (https://www.youtube.com/watch?v=zkyIVFoLxgY)
 
+USER EXSPERIENCE
+------------------
+Begin able to give the user an enjoyable exsperience is key, as if you have designed it well and have marketing your product well you'll be able to keep the user 
+browsing for a much larger period of time. Even though these are simple 4 HTML & CSS web pages there is a clear layout for the user to navigate throughout the pages along with
+being able to exsperiece selective CSS effect and JS effects. The choice to not over do the effect on everything was chosen purposly as it can become too much and create a silly 
+stmosphere in the page. Graphic Design is my strong suit and I really wanted Ferlicity Cafe to be a bright warm design suitable to view on any device.
+
+ACKNOWLEDGEMENTS & CONCLUSION 
+-------------------------------
+I understand that I have a basic understanding and it took me more than one or two repositories to figgure out how to build a basic 
+webpage, once that layout was place creating graphicsand style for the page became much smoother for me. What I need to improve upon is 
+margins and spacing, as that was the one constant thing which continued to bug out. I am pround that looked at basic JS for toggle mobile menu, 
+login & sign up menu. There was some other JS code I wanted to use but I lacked the knowlage in doing so but I can see how JS can be utilized into making
+webpages fluid with animation that increases users exsperience. I feel JS is what Ill find myself becoming absorbed with but until then I need to continue to 
+work on my HTML and CSS margins and spacings.
 
 CONTACT
 ---------------------
