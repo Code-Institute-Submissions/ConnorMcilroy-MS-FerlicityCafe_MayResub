@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Ferlicitys Cafe | Milestone Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- -----------------------------------------
+	00. NAV BAR & HEADER
+-------------------------------------------- -->
+
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>   
+</div>
+
+<!-- -----------------------------------------
+	01. BACK TO TOP BUTTON
+-------------------------------------------- -->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up" viewBox="0 0 16 16">
+    <path d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659l4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z"/>
+</svg></button>
+
+<!-- -----------------------------------------
+	02. ACCOUNT & LOGIN
+-------------------------------------------- -->
+
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/image1.png" width="100%">
+            </div>
+
+    <div class="col-2">
+        <div class="form-container">
+            <div class="form-btn">
+                <span onclick="login()">Login</span>
+                <span onclick="register()">Sign Up</span>
+                <hr id="Indicator">
+                    </div>
+                    <form id="LoginForm">
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Forgotten Password</a>
+                    </form>
+
+    <form id="RegForm">
+        <input type="text" placeholder="Username">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <button type="submit" class="btn">Sign Up</button>
+    </form>
+        </div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+<!-- -----------------------------------------
+	08. FOOTER
+-------------------------------------------- -->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <a href="https://www.apple.com/uk/ios/app-store/"><img src="images/app-store.png"></a>
+                    <a href="https://play.google.com/store/apps?utm_source=emea_Med&utm_medium=hasem&utm_content=Apr2815&utm_campaign=Evergreen&pcampaignid=MKT-EG-emea-gb-1001280-Med-hasem-ap-Evergreen-Apr2815-1%7cONSEM_kwid_43700007009446903&gclid=CjwKCAiAkJKCBhAyEiwAKQBCks1nKaZTLr1hwCbAgo1PioovIBraWa8_X5qP4OyaKNPWTZCMmvdF-hoCLuMQAvD_BwE&gclsrc=aw.ds"><img src="images/play-store.png"></a>
+                </div>
+            </div>
+
+            <div class="footer-col-2">
+                <img src="images/logo-white.png">
+                <p>As long as there was coffee in the world, how bad could things be?</p>
+            </div>
+
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="account.html">Account</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                    </ul>
+            </div>
+
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                     <ul>
+                        <li><a href="https://www.facebook.com/">Facebook</a></li>
+                        <li><a href="https://www.Twitter.com/">Twitter</a></li>
+                        <li><a href="https://www.Instagram.com/">Instagram</a></li>
+                        <li><a href="https://www.Youtube.com/">Youtube</a></li>
+                     </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Code Institute | Milestone Project</p>
+    </div>
+</div>
+
+<!-- -----------------------------------------
+	09. JS | MENU TOGGLE
+-------------------------------------------- -->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+    MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+              if(MenuItems.style.maxHeight == "0px")
+              {
+                 MenuItems.style.maxHeight = "200px";
+              }
+              else
+              {
+                 MenuItems.style.maxHeight = "0px";
+              }
+            }
+</script>
+
+<script>
+/* JS LOGIN FORM */
+    var LoginForm = document.getElementById("LoginForm")
+    var RegForm = document.getElementById("RegForm")
+    var Indicator = document.getElementById("Indicator")
+
+    function register() {
+        RegForm.style.transform = "translateX(0px)";
+        LoginForm.style.transform = "translateX(0px)";
+        Indicator.style.transform = "translateX(100px)";
+    }
+
+    function login() {
+        RegForm.style.transform = "translateX(300px)";
+        LoginForm.style.transform = "translateX(300px)";
+        Indicator.style.transform = "translateX(0px)";
+    }
+
+</script>
+
+<script>
+/* BACK TO TOP BUTTON */
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+    
+</body>
+</html>
