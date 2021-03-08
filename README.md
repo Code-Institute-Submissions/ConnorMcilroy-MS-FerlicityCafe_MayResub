@@ -65,6 +65,7 @@ The following are the refference and sources used:
 - Google Images (www.googleimages.com)
 - Code Institute - BootstrappingYourNextBigIdea
 - Youtube Webdev Channel - (https://www.youtube.com/channel/UCZc238wXqeN2M2uXQaY9MEw)
+- Youtube Channel Easy Tutorials - (https://www.youtube.com/watch?v=vOXGuNVRGpA&t=1s)
 
 CODE
 ------
