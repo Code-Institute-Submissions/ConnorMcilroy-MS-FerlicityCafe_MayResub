@@ -75,6 +75,7 @@ CODE
 - Ferlicity graphics banner and logo in art were purchaced by myself & logo was created by myself.
 - Featured Products & Latest Product code we're taken from (https://css-tricks.com/designing-a-product-page-layout-with-flexbox/) Then edited to fit my project.
 - Testimonials code we're help via (https://www.w3schools.com/howto/howto_css_team.asp) & (https://www.youtube.com/watch?v=zkyIVFoLxgY)
+- Banner & Login code was taken and used from Youtube Channel Easy Tutorials - (https://www.youtube.com/watch?v=vOXGuNVRGpA&t=1s)
 
 USER EXSPERIENCE
 ------------------
