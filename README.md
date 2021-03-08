@@ -13,8 +13,10 @@ CONTENTS OF THIS FILE
  * Introduction
  * Wireframes
  * Getting Started
- * Credits
+ * Refferences & Credits
+ * Code
  * Contact
+ * Special Thanks
 
 
 INTRODUCTION
