@@ -65,7 +65,11 @@ The following are the refference and sources used:
 CODE
 ------
 - Product card used from (https://www.w3schools.com/howto/howto_css_product_card.asp)
-- 
+- Coffee images were used from Costa website (https://www.costa.co.uk/)
+- images of coffee and testimonials were taken from google
+- Ferlicity graphics banner and logo in art were purchaced by myself & logo was created by myself.
+- Featured Products & Latest Product code we're taken from (https://css-tricks.com/designing-a-product-page-layout-with-flexbox/) Then edited to fit my project.
+- Testimonials code we're help via (https://www.w3schools.com/howto/howto_css_team.asp) & (https://www.youtube.com/watch?v=zkyIVFoLxgY)
 
 
 CONTACT
