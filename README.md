@@ -45,13 +45,13 @@ the content will hold 4 webpages, along with a folder which contains all require
 #Credits
 The following are the refference and sources used:
 
-- Google fonts
-- Bootstrap
-- Font Awesome
+- Google fonts (https://fonts.google.com/)
+- Bootstrap (https://getbootstrap.com/)
+- Font Awesome (https://fontawesome.com/)
 - Gstatic
-- w3schools
-- Costa Product images
-- Google Images
+- w3schools (https://www.w3schools.com/)
+- Costa Product images (https://www.costa.co.uk/)
+- Google Images (www.googleimages.com)
 - Code Institute - BootstrappingYourNextBigIdea
 - Youtube Webdev Channel - (https://www.youtube.com/channel/UCZc238wXqeN2M2uXQaY9MEw)
 
