@@ -262,3 +262,28 @@ small {
     color: #555;
     font-size: 16px;
 }
+
+/*-- -----------------------------------------
+	06. LOGO BRANDS
+-------------------------------------------- --*/
+
+
+.brands {
+    margin: 100px auto;
+}
+
+.col-5 {
+    width: 160px;
+}
+
+.col-5 img  {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.col-5 img:hover {
+    filter: grayscale(0);
+    transition: 0.5s;
+}
