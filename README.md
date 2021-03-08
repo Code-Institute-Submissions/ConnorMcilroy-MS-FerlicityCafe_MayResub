@@ -1,45 +1,65 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#Milestone Project | Ferlicity Cafe
+Project name is a <ConnorMcilroy/MS-FerlicityCafe>
+In this project, the goal is to build a static front-end site to present useful information to users, using all the technologies that you have learned about so far.
+I will Incorporate a small amount of JS which I have learned from different website sources and push myself to present an understanding on how to set up a webpage.
+Everything here is for educational purposes only for Code Institute.
+Hand-in Date: 08/03/2021
 
-Welcome USER_NAME,
+CONTENTS OF THIS FILE
+---------------------
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+ * Introduction
+ * Wireframes
+ * Getting Started
+ * Credits
+ * #Contact
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+#Introduction
+Static front end project: Write custom HTML5 and CSS3 code to create a website of at least 3 pages, or (if using a single scrolling page), at least 3 separate page areas.
+Information Architecture: Incorporate a main navigation menu and structured layout (you might want to use Bootstrap to accomplish this).
 
-`python3 -m http.server`
+Documentation: Write a README.md file for your project that explains what the project does and the value that it provides to its users.
+Version Control: Use Git & GitHub for version control.
 
-A blue button should appear to click: *Make Public*,
+Attribution: Maintain clear separation between code written by you and code from external sources (e.g. libraries or tutorials). Attribute any code from external sources to its source via comments above the code and (for larger dependencies) in the README.
+Deployment: Deploy the final version of your code to a hosting platform such as GitHub Pages.
 
-Another blue button should appear to click: *Open Browser*.
+#Wireframes
+- index.HTML (https://www.flickr.com/photos/184809325@N06/51014797321/in/dateposted-public/)
+- products.HTML (https://www.flickr.com/photos/184809325@N06/51014797321/in/dateposted-public/)
+- singleproducts.HTML (https://www.flickr.com/photos/184809325@N06/51014886807/in/dateposted-public/)
+- login.HTML (https://www.flickr.com/photos/184809325@N06/51014073608/in/dateposted-public/)
+- cart.HTML (https://www.flickr.com/photos/184809325@N06/51014073663/in/dateposted-public/)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#Getting Started
+This will be a cafe e-commerce website design of coffee named; Ferlicity Cafe.
+the content will hold 4 webpages, along with a folder which contains all requires icons, png & jpeg assets.
+- images/..
+- README.md
+- index.HTML
+- products.HTML
+- singleproducts.HTML (There will be multiple of these HTML files as I will be using them for all products shown)
+- cart.HTML
 
-A blue button should appear to click: *Make Public*,
+#Credits
+The following are the refference and sources used:
 
-Another blue button should appear to click: *Open Browser*.
+- Google fonts
+- Bootstrap
+- Font Awesome
+- Gstatic
+- w3schools
+- Costa Product images
+- Google Images
+- Code Institute - BootstrappingYourNextBigIdea
+- Youtube Webdev Channel - (https://www.youtube.com/channel/UCZc238wXqeN2M2uXQaY9MEw)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#Contact
+If you want to contact me you can reach me at connor.r.white@icloud.com
 
-## Updates Since The Instructional Video
+#Thanks
+Thank you code institute for getting me this far, I am beginning to get the grip of how HTML & CSS work with a tad of JS. I 
+look forward to what you'll teach me next!
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
