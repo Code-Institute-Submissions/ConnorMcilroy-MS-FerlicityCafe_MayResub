@@ -40,6 +40,8 @@ WIREFRAMES
 - login.HTML (https://www.flickr.com/photos/184809325@N06/51014073608/in/dateposted-public/)
 - cart.HTML (https://www.flickr.com/photos/184809325@N06/51014073663/in/dateposted-public/)
 
+https://flic.kr/p/2kJ1aV4
+
 GETTING STARTED
 ---------------------
 This will be a cafe e-commerce website design of coffee named; Ferlicity Cafe.
