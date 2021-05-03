@@ -138,11 +138,20 @@ Starting out I had an issue with the cards keeping to an equal height on the Quo
 TESTING
 -------------------------------
 
-I have tested the website on the following internet browsers thorugh inspect:
-• Google Chrome
-• Microsoft Edge
-• Safari
-• Firefox
+I have tested the website on the following internet browsers:
+- Google Chrome
+- Microsoft Edge
+- Safari
+- Firefox
+
+I have tested the website on the following devices:
+- Moto G4
+- Galaxy S5
+- Pixel 2
+- iPhone 6/7
+- iPhone X
+- ipad
+- iPad Pro
 
 ACKNOWLEDGEMENTS & CONCLUSION 
 -------------------------------
