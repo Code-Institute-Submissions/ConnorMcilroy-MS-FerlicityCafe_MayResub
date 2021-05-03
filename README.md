@@ -1,6 +1,5 @@
 MILESTONE PROJECT 01 | FERLICITY CAFE
 ---------------------
-
 ![](images/Readme-1.jpg)
 
 Project name is a <ConnorMcilroy/MS-FerlicityCafe>
