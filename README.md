@@ -132,9 +132,17 @@ The navigation bar takes the user to the Home page, Products, Single Product, Ac
 
 ISSUES TO OVERCOME 
 -------------------------------
+Starting out I had an issue with the cards keeping to an equal height on the Quotes/Reviews when changing screen size. Naturally as I progressed I thought the boxes looked too long on medium sized screens such as iPads, so I found a correction by changing col-4 to col-3 this stop the problem which I was having as now looking like this:
+![](images/readme-quotes.jpg)
 
+TESTING
+-------------------------------
 
-
+I have tested the website on the following internet browsers thorugh inspect:
+• Google Chrome
+• Microsoft Edge
+• Safari
+• Firefox
 
 ACKNOWLEDGEMENTS & CONCLUSION 
 -------------------------------
