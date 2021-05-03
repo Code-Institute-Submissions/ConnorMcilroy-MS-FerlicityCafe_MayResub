@@ -35,13 +35,26 @@ Deployment: Deploy the final version of your code to a hosting platform such as 
 
 WIREFRAMES
 ---------------------
+
 ![](images/Wireframe1.jpg)
+![](images/Wireframe2.jpg)
 
 - index.HTML (https://www.flickr.com/photos/184809325@N06/51014797321/in/dateposted-public/)
 - products.HTML (https://www.flickr.com/photos/184809325@N06/51014797321/in/dateposted-public/)
 - singleproducts.HTML (https://www.flickr.com/photos/184809325@N06/51014886807/in/dateposted-public/)
 - login.HTML (https://www.flickr.com/photos/184809325@N06/51014073608/in/dateposted-public/)
 - cart.HTML (https://www.flickr.com/photos/184809325@N06/51014073663/in/dateposted-public/)
+
+GETTING STARTED
+---------------------
+
+![](images/colorscheme.png)
+The colour scheme used for this website was composed through the use of Coolor.
+
+Rough Red #a62747
+Beige Pink #fae0df
+Gray #555555
+Pale White #fbfbfb
 
 GETTING STARTED
 ---------------------
