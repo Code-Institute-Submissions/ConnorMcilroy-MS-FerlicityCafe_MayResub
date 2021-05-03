@@ -1,6 +1,8 @@
 MILESTONE PROJECT 01 | FERLICITY CAFE
 ---------------------
 
+![](images/Readme-1.jpg)
+
 Project name is a <ConnorMcilroy/MS-FerlicityCafe>
 In this project, the goal is to build a static front-end site to present useful information to users, using all the technologies that you have learned about so far.
 I will Incorporate a small amount of JS which I have learned from different website sources and push myself to present an understanding on how to set up a webpage.
@@ -39,8 +41,6 @@ WIREFRAMES
 - singleproducts.HTML (https://www.flickr.com/photos/184809325@N06/51014886807/in/dateposted-public/)
 - login.HTML (https://www.flickr.com/photos/184809325@N06/51014073608/in/dateposted-public/)
 - cart.HTML (https://www.flickr.com/photos/184809325@N06/51014073663/in/dateposted-public/)
-
-https://flic.kr/p/2kJ1aV4
 
 GETTING STARTED
 ---------------------
