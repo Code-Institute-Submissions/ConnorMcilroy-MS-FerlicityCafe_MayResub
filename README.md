@@ -35,6 +35,8 @@ Deployment: Deploy the final version of your code to a hosting platform such as 
 
 WIREFRAMES
 ---------------------
+![](images/index-wireframe.jpg)
+
 - index.HTML (https://www.flickr.com/photos/184809325@N06/51014797321/in/dateposted-public/)
 - products.HTML (https://www.flickr.com/photos/184809325@N06/51014797321/in/dateposted-public/)
 - singleproducts.HTML (https://www.flickr.com/photos/184809325@N06/51014886807/in/dateposted-public/)
