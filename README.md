@@ -136,6 +136,24 @@ ISSUES TO OVERCOME
 Starting out I had an issue with the cards keeping to an equal height on the Quotes/Reviews when changing screen size. Naturally as I progressed I thought the boxes looked too long on medium sized screens such as iPads, so I found a correction by changing col-4 to col-3 this stop the problem which I was having as now looking like this:
 ![](images/readme-quotes.jpg)
 
+TECHNOLOGY USED
+-------------------------------
+
+Programming Languages:
+- HTML5
+- CSS3
+- Javascript
+
+Frameworks, Libraries and Programs:
+- Bootstrap - is used to make the website responsive as well as form the layout and add components to the page.
+- Google Fonts - is used to implement Sansita-Swashed to my style.css and Roboto for the buttons and CTA's.
+- Flaticon - was used to select and edit the logo of the website.
+- Photoshop - was used to create the wireframes for the project, edited images, creating mockup of the website for the README.md and created logo.
+- Font Awesome - was used to apply social media icons on the webpage footer and icons for the webpage 'contact details' in the contact section.
+- Hover.css - was used on my navigation bar links and social media links. This changes colour of the link when hovered over.
+- Git - was used for version control. It was through the terminal Gitpod in which code was committed and pushed to GitHub.
+- GitHub - was used to store the project pushed from Git.
+
 TESTING
 -------------------------------
 
