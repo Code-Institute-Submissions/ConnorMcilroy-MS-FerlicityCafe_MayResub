@@ -159,8 +159,7 @@ TESTING
 
 Validation:
 
-- W3C Markup Validation was used to validate the code in the four HTML files. I tested each page separately and they have all passed with no errors. The image below is of the webpage URL showing no errors. The required alt attribute specifies an alternate text for an image, if the image cannot be displayed.
-The alt attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).
+- W3C Markup Validation was used to validate the code in the HTML files. I tested each page separately and the CSS have passed with no errors.  However, with the HTML URL showing no errors. The required alt attribute specifies an alternate text for an image, the image cannot be displayed. I see my mistake and would require to go back and add ALT for each image throughout the webpage. Unfortunately due to the late submission, I didn't have time to go throughout the whole code to fix this mistake. Going forward I'll build my webpages with this in mind and not make this mistake again.
 ![](images/readmehtml2.jpg)
 
 
