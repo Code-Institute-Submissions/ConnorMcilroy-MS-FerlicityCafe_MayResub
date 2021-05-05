@@ -50,6 +50,7 @@ Colour Scheme
 ---------------------
 
 ![](images/colorscheme.png)
+
 The colour scheme used for this website was composed through the use of Coolor.
 
 Rough Red #a62747
@@ -134,6 +135,7 @@ The navigation bar takes the user to the Home page, Products, Single Product, Ac
 ISSUES TO OVERCOME 
 -------------------------------
 Starting out I had an issue with the cards keeping to an equal height on the Quotes/Reviews when changing screen size. Naturally as I progressed I thought the boxes looked too long on medium sized screens such as iPads, so I found a correction by changing col-4 to col-3 this stop the problem which I was having as now looking like this:
+
 ![](images/readme-quotes.jpg)
 
 TECHNOLOGY USED
@@ -160,10 +162,12 @@ TESTING
 Validation:
 
 - W3C Markup Validation was used to validate the code in the HTML files. I tested each page separately and the CSS have passed with no errors.  However, with the HTML URL showing no errors. The required alt attribute specifies an alternate text for an image, the image cannot be displayed. I see my mistake and would require to go back and add ALT for each image throughout the webpage. Unfortunately due to the late submission, I didn't have time to go throughout the whole code to fix this mistake. Going forward I'll build my webpages with this in mind and not make this mistake again.
+- 
 ![](images/readmehtml2.jpg)
 
 
 - W3C CSS Validation was used to validate the code in my style.css file.
+- 
 ![](images/readmehtml.jpg)
 
 I have tested the website on the following internet browsers:
