@@ -209,6 +209,8 @@ login & sign up menu. There was some other JS code I wanted to use but I lacked 
 webpages fluid with animation that increases users exsperience. I feel JS is what Ill find myself becoming absorbed with but until then I need to continue to 
 work on my HTML and CSS margins and spacings.
 
+It's unfortunate that this work ended up being a late submission, due to my oversight I miss some vital requirements for the README.md. Going through the webpage I have uncovered some small issues which I now know why they are incorrect. Moving forward I won't be repeating the ALT issue again. For this submission I was unable to spend the time I wanted to on it as now I am having to move from Full time to Part time but I feel that I accomplished what I originally set out to make and know that how to improve on it on my next project. 
+
 CONTACT
 ---------------------
 
