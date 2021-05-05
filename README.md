@@ -181,6 +181,13 @@ I have tested the website on the following devices:
 - ipad
 - iPad Pro
 
+Testing process:
+At the beginning, I asked my partner to test my website on their device as well as ask for their opinion on any issues.
+Quote: "I used it on my laptop and it worked fine. I had no issues visually and technically with it. I definetely love the colours it's very soothing in the eyes. Also it's so simple to use and user-friendly." 
+
+Known Bugs
+The scroll back to the top button behaviour: didn't work as intended as once clicked it simply cuts for that point of the webpage to the top without a smooth transition back to the top. 
+
 ACKNOWLEDGEMENTS & CONCLUSION 
 -------------------------------
 I understand that I have a basic understanding and it took me more than one or two repositories to figgure out how to build a basic 
