@@ -192,8 +192,16 @@ Quote: "I used it on my laptop and it worked fine. I had no issues visually and 
 Known Bugs
 The scroll back to the top button behaviour: didn't work as intended as once clicked it simply cuts for that point of the webpage to the top without a smooth transition back to the top. 
 
-ACKNOWLEDGEMENTS & CONCLUSION 
+ACKNOWLEDGEMENTS
 -------------------------------
+
+- Many thanks to my Mentor, who has helped me immensely in the planning and formation of the website.
+- Many thanks to Code Institute tutor support for their rapid response to any of my difficulties or queries.
+- Many thanks to the Slack community for being incredibly useful and supportive.
+
+CONCLUSION 
+-------------------------------
+
 I understand that I have a basic understanding and it took me more than one or two repositories to figgure out how to build a basic 
 webpage, once that layout was place creating graphicsand style for the page became much smoother for me. What I need to improve upon is 
 margins and spacing, as that was the one constant thing which continued to bug out. I am pround that looked at basic JS for toggle mobile menu, 
@@ -203,6 +211,7 @@ work on my HTML and CSS margins and spacings.
 
 CONTACT
 ---------------------
+
 If you want to contact me you can reach me at connor.r.white@icloud.com
 
 SPECIAL THANKS!
