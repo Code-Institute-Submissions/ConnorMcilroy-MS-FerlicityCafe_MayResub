@@ -1,5 +1,6 @@
 MILESTONE PROJECT 01 | FERLICITY CAFE
 ---------------------
+- Have a look at the live website: https://github.com/ConnorMcilroy/MS-FerlicityCafe/settings/pages
 ![](images/Readme-1.jpg)
 
 Project name is a <ConnorMcilroy/MS-FerlicityCafe>
