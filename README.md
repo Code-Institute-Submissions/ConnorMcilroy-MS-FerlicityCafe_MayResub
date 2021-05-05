@@ -157,7 +157,14 @@ Frameworks, Libraries and Programs:
 TESTING
 -------------------------------
 
-W3C CSS Validation was used to validate the code in my style.css file.
+Validation:
+
+- W3C Markup Validation was used to validate the code in the four HTML files. I tested each page separately and they have all passed with no errors. The image below is of the webpage URL showing no errors. The required alt attribute specifies an alternate text for an image, if the image cannot be displayed.
+The alt attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).
+![](images/readmehtml.jpg)
+
+
+- W3C CSS Validation was used to validate the code in my style.css file.
 ![](images/readmehtml.jpg)
 
 I have tested the website on the following internet browsers:
