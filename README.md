@@ -157,6 +157,9 @@ Frameworks, Libraries and Programs:
 TESTING
 -------------------------------
 
+W3C CSS Validation was used to validate the code in my style.css file.
+![](images/htmlcheck.png)
+
 I have tested the website on the following internet browsers:
 - Google Chrome
 - Microsoft Edge
